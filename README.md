@@ -51,24 +51,6 @@ Key Features
 
 ✅ RESTful API: Easy integration with other applications
 
-🏗️ Architecture
-text
-aadhar-extractor/
-├── src/
-│   ├── controllers/
-│   │   └── extractController.js    # Request handling
-│   ├── services/
-│   │   ├── fileProcessor.js         # File type processing
-│   │   └── dataParser.js            # Aadhar data extraction logic
-│   ├── utils/
-│   │   └── fileValidator.js         # File validation
-│   └── routes/
-│       └── api.js                    # API endpoints
-├── uploads/                          # Temporary file storage
-├── .env                              # Environment variables
-├── server.js                         # Main application
-└── package.json                      # Dependencies
-
 
 💻 Technology Stack
 Runtime: Node.js
